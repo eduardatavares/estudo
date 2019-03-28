@@ -1,11 +1,24 @@
-<div class="container">
-  <div class="col-md-12">
-    <div class="form">
-      <div class="row-md-12">
-        <label>Nome:</label>
-        <input type="text">
-        <button class="btn btn-primary" [routerLink]="['/inicio']"  routerLinkActive="false">Entrar</button>
-      </div>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="simple-login-container">
+    <h2>Login </h2>
+    <div class="row">
+        <div class="col-md-12 form-group">
+            <input type="text" class="form-control" placeholder="Nome">
+        </div>
     </div>
-  </div>
+    <div class="row">
+        <div class="col-md-12 form-group">
+            <input type="password" placeholder="Senha" class="form-control">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 form-group">
+            <input type="submit" class="btn btn-block btn-login"routerLink="/home"  >
+        </div>
+    </div>
+  
 </div>
