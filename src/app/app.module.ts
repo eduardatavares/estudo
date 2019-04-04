@@ -1,6 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
+<<<<<<< HEAD
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+=======
+import { NgModule } from '@angular/core';
+>>>>>>> 7487a024d2e279d1830bc164849a3a61b10ec219
 
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -14,7 +19,6 @@ import { RoutingModule } from './app-routing-module';
     AppComponent,
     LoginComponent
   ],
-
   imports: [
     BrowserModule,
     RoutingModule,
@@ -23,8 +27,7 @@ import { RoutingModule } from './app-routing-module';
   
 
   ],
-  providers: [AuthGuardService],
-  bootstrap: [AppComponent],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+  providers: [],
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
