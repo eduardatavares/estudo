@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { MatDialog } from '@angular/material';
-import { constructor } from 'q';
 
 
 @Component({
