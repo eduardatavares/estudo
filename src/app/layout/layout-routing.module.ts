@@ -17,8 +17,6 @@ const routes: Routes = [
         loadChildren: './funcionarios/funcionarios.module#FuncionariosModule'
       },
 
-
-
     ]
   },
 

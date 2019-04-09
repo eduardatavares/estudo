@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
-import { ListarFuncionariosComponent } from './listar-funcionarios/listar-funcionarios.component';
-import { CadastroFuncionariosComponent } from './manter-funcionarios/funcionarios.component';
+import { ListarFuncionariosComponent } from './funcionarios/listar-funcionarios/listar-funcionarios.component';
+import { CadastroFuncionariosComponent } from './funcionarios/manter-funcionarios/funcionarios.component';
+
 
 
 @NgModule({
