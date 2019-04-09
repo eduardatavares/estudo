@@ -16,6 +16,10 @@ const routes: Routes = [
         path: 'funcionarios',
         loadChildren: './funcionarios/funcionarios.module#FuncionariosModule'
       },
+      {
+        path: 'erro',
+        loadChildren: './erros/erros.module#ErrosModule'
+      }
 
     ]
   },
