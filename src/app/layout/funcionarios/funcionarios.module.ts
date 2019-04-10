@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { ListarFuncionariosComponent } from './funcionarios/listar-funcionarios/listar-funcionarios.component';
 import { CadastroFuncionariosComponent } from './funcionarios/manter-funcionarios/funcionarios.component';
+import { FuncionariosRoutingModule } from './funcionarios-routing.module';
 
 
 
@@ -11,8 +12,8 @@ import { CadastroFuncionariosComponent } from './funcionarios/manter-funcionario
   ],
 
   imports: [
+    FuncionariosRoutingModule
 
-  
 
   ],
   providers: []
